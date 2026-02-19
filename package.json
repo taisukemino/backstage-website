@@ -1,0 +1,13 @@
+{
+  "name": "backstage-website",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bunx serve .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
